@@ -1,0 +1,93 @@
+p {
+    color: red;
+}
+h1 {
+    color:blue;
+}
+
+h2 {
+    color:pink;
+}
+
+li {
+    color:green;
+}
+/* Se usa el numeral para los id */
+#parrafo2{
+    color:violet;
+}
+/* Se usa el punto para las clases */
+.parrafogris{
+    color:gray;
+}
+
+.textograndenegreita{
+    font-size: x-large;
+    font-style: bold;
+}
+
+.fondoazul{
+    background-color:blue;
+}
+
+.textoamarillo{
+    color:rgb(255,0,0)
+}
+
+.textoazul{
+    color: #fff;
+}
+
+.textograndenegreta1{
+    font-size: x-large;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenpequeña{
+    /* Alto */
+    height: 300px;
+    /* Ancho */
+    width: 150px;
+
+}
+
+.google{
+    height: 100px;
+}
+
+.contenedorconmargen{
+    margin: 10px;
+}
+
+.contenedorconmargen1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.contenedoresDivGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    margin: 20px;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
+.contenedoresDivsFlex{
+    border: 2px solid green;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
